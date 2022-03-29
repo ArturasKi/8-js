@@ -48,3 +48,42 @@ console.log(studentai);
 
 const booleanList = [true, false, true, false, true, false];
 console.log(booleanList);
+
+/*
+KINTAMUJU INICIJAVIMAS
+*/
+
+const numberOne = 1;
+console.log(numberOne);
+const numberTwo = 2;
+console.log(numberTwo);
+const numberThree = 3;
+console.log(numberThree);
+
+const vardenis = 'Arturas';
+console.log(vardenis);
+const pavardenis = 'Kisielius';
+console.log(pavardenis);
+const sokis = 'Lindyhopas';
+console.log(sokis);
+
+const metai = [1991, 2005, 2009, 2015, 2022];
+console.log(metai);
+const numeriai = [2, 4, 2, 3, 5];
+console.log(numeriai);
+const kiekiai = [20, 30, 40, 50, 60];
+console.log(kiekiai);
+
+const miestai = ['Alytus', 'Vilnius', 'Kaunas', 'Trakai', 'Varena'];
+console.log(miestai);
+const gyvunai = ['arklys', 'suo', 'lape', 'vilkas', 'meskenas'];
+console.log(gyvunai);
+const skaiciai = ['vienas', 'du', 'trys', 'keturi', 'penki'];
+console.log(skaiciai);
+
+
+
+
+
+
+
