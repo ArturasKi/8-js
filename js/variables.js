@@ -81,6 +81,24 @@ console.log(gyvunai);
 const skaiciai = ['vienas', 'du', 'trys', 'keturi', 'penki'];
 console.log(skaiciai);
 
+/*
+VEIKSMAI SU KINTAMAISIAIS
+*/
+
+const suma = numberOne + numberTwo + numberThree;
+console.log(suma);
+const sumaTekstai = vardenis + ' ' + pavardenis + ' ' + sokis;
+console.log(sumaTekstai);
+
+const skaiciavimas = [2 - 4 + 2 - 3 + 5];
+console.log(skaiciavimas);
+
+
+console.log(skaiciai, gyvunai, miestai);
+
+
+
+
 
 
 
