@@ -70,4 +70,8 @@ console.log('Jonas:', jonoVidurkis);
 const onosVidurkis = vidurkis(ona);
 console.log('Ona:', onosVidurkis);
 
+/*
+Funkcija
+*/
+
 
