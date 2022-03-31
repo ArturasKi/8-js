@@ -17,6 +17,13 @@ const vidurkis = suma / pazymiai.length;
 console.log('Vidurkis:', vidurkis);
 
 
+console.log('--------------');
+
+for (let i = -80; i < -60; i++) {
+    console.log(i);
+}
+
+
 
 
 
