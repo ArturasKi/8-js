@@ -92,11 +92,6 @@ bankomatas2.cashOut(9);
 bankomatas1.status();
 bankomatas2.status();
 
-
-
-
-
-
 /* PVZ
 function average(list) {
     let sum = 0;
