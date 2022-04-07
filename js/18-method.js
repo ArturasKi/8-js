@@ -64,9 +64,105 @@ console.log(Math.trunc(1.55));  // palieka tik sveika skaiciaus daliW
 STRING
 */
 
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+const labas = 'Labas rytas, Lietuva!'
+console.log(labas.length);    // simboliu skaicius
+console.log(labas.includes('y')); // ar yra string'e
+console.log(labas.includes('rytas'));
+console.log(labas.includes('rytas '));
+console.log(labas.includes('x'));
+console.log('Kur stringe yra kitas sub-string');
+console.log(labas.indexOf('L'));  // kelintas string'e
+console.log(labas.indexOf('L', 1));
+console.log(labas.indexOf('y'));
+console.log(labas.indexOf('rytas'));
+console.log(labas.indexOf('rytas '));
+console.log(labas.indexOf('x'));
+console.log('Sukarpyti string i dalis');
+console.log(labas.split(' ')); // padaro array
+console.log(labas.split('a'));
+console.log(labas.split('!'));
+console.log(labas.split('L'));
+console.log('Kartojimas');
+console.log('Steve'.repeat(3));
+console.log('a'.repeat(20));
+console.log(labas.charAt(2));
+console.log(labas[2]);
+console.log(labas.slice(6, 11));
+console.log(labas.slice(labas.indexOf('r')));
+console.log(labas.slice(labas.indexOf('r'), labas.indexOf('s', labas.indexOf)));
+
+console.log('Teksto konvertavimas');
+console.log(labas.toLocaleLowerCase());
+console.log(labas.toLocaleUpperCase());
+console.log('Teksto apvalymas nuo tarpu');
+console.log('    Labas     rytas!    '.trimStart() + '.');
+console.log('    Labas     rytas!    '.trimEnd() + '.');
+console.log('    Labas     rytas!    '.trim() + '.');
+console.log('Elon Musk'.trim() + '.');  // naudinga su username
+console.log('            Elon Musk          '.trim() + '.');
+
+console.log('Replace');
+console.log(labas.replace('rytas', 'vakaras'));
+console.log(labas.replace('a', '_'));
+console.log(labas.replace(/a/gi, '_')); // regex
+// console.log(labas.replaceAll('a', '_'));
+
+/*
+BOOLEAN
+*/
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+
+console.log(true.toString());
+
 /*
 ARRAY
 */
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+console.log('-----------------')
+
+const rytas = ['Labas', 'rytas', 'Lietuva'];
+console.log(rytas.length);
+
+console.log('Sujungti');
+console.log(rytas.join(' '));
+console.log(rytas.join(', '));
+console.log(rytas.join('-=-'));
+
+console.log('Paieska');
+console.log(rytas.includes('a'));   // ar yra masyve narys 'a'.
+console.log(rytas.includes('rytas'));
+console.log(rytas.includes('Rytas'));
+console.log(rytas.indexOf('a'));
+console.log(rytas.indexOf('rytas'));
+console.log(rytas.indexOf('Rytas'));
+console.log(rytas.indexOf('Lietuva'));
+
+
+console.log(rytas.push('PUSH')); // itraukia elementa i gala
+console.log(rytas);
+console.log(rytas.unshift('UNSHIFT')); // itraukia elementa i prieki
+console.log(rytas);
+console.log(rytas.pop()); // atima is galo
+console.log(rytas);
+console.log(rytas.shift()); // atima is priekio
+console.log(rytas);
+
+console.log('Extra')
+console.log(rytas.reverse()); // is galo sudelioja masyva
+
+// map, filter, sort, reduce, every, flat, forEach
 
 /*
 OBJECT
