@@ -62,3 +62,10 @@ const rez2 = func(m1, m2);
 
 console.log(rez);
 console.log(rez2);
+
+
+const arr = [5, 4, 3, 2, 1];
+
+    arr.forEach((x) => {
+        var suma=suma + x;
+    });
